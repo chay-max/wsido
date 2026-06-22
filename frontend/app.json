@@ -16,9 +16,13 @@
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-       "permissions": ["PACKAGE_USAGE_STATS", "SYSTEM_ALERT_WINDOW", "BIND_ACCESSIBILITY_SERVICE"],
+      "permissions": [
+        "PACKAGE_USAGE_STATS",
+        "SYSTEM_ALERT_WINDOW",
+        "BIND_ACCESSIBILITY_SERVICE"
+      ],
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.m4xx.frontend"
@@ -46,6 +50,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3954b331-7f6a-4109-91e9-b3fc62b1477f"
+      }
+    },
+    "owner": "m4xx"
   }
 }
