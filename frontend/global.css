@@ -1,9 +1,2 @@
 @import 'tailwindcss';
 @import 'uniwind';
-
-@theme{
-    --color-darkblue: #120776;
-    --color-white: #f9eaff;
-    --color-green: #66baa8;
-    --color-purple: #564674;
-}
